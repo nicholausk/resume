@@ -1,0 +1,63 @@
+\documentclass{resume}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Nicholas Kouris}
+\address{Northeast Ohio \\ example@email.com \\ (555) 555-5555}
+
+\begin{document}
+
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Javascript, Python, SQL, Scss\\
+Technologies & React, GraphQL, OpenAPI, Node.js, PostgreSQL, Selenium\\
+Tools & Git, Docker, Kubernetes, Terraform\\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Work Experience}
+\begin{rSubsection}
+{Complion, Inc.}{Feb 2019 - present}{Software Engineer I}{}
+ \item full stack Javascript development
+ \item Created a framework and suite of scripts for the continuous testing of a web application
+\end{rSubsection}
+
+\begin{rSubsection}
+{The Amynta Group \& AmTrust Financial Services, Inc.}{Jan 2017 - Dec 2018}{Software Development Engineer in Test II}{\em \& May 2014 - May 2015}
+ \item Focus on data driven testing of an Auto Insurance provider’s ‘rating engine’
+ \item Created a suite of Rest API calls that send thousands of unique criteria sets to confirm pricing logic
+ \item Packaged test suite to be run on a continuous integration environment, with a subset of tests to produce rapid feedback on various elements in the business
+\end{rSubsection}
+
+\begin{rSubsection}
+{OnShift, Inc.}{Mar 2016 - Dec 2016}{Quality Assurance Analyst}{}
+ \item Created a framework and suite of scripts for the continuous testing of iOS and Android applications
+ \item Documented a release testing suite and conducted release regression testing on mobile platforms
+ \item Weighed Quality Assurance tasks to measure and track development velocity in an agile styled system
+\end{rSubsection}
+
+\begin{rSubsection}
+{DecisionDesk, Inc.}{Jun 2015 - Feb 2016}{Quality Assurance}{\em \& Oct 2012 - Dec 2013}
+ \item Developed and conducted manual and automated test scripts for new features prior to release
+ \item Prioritized and defined scope of outstanding engineering tasks at daily stand-ups
+ \item Wrote internal release notes clarifying changes in each new version of the product
+\end{rSubsection}
+
+\begin{rSubsection}
+{Findaway World LLC}{May 2007 - Sep 2012}{Inventory Lead}{}
+ \item Conducted hardware and firmware Quality Control testing on all received electronics
+ \item Led a ‘reset’ on production processes for all receipts, fulfillments and inventory counting practices
+ \item Calculated shipping quotes, including VAT, duties, and brokerage fees specific to harmonized code
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Education}
+{\bf Trinity College of Quezon City, Metro Manila}
+\\Participant in The Service and Learning Exchange Program
+
+{\bf Kent State University, Ohio}
+\\ Undergraduate in College of Fine and Professional Arts
+\end{rSection}
+
+\end{document}
